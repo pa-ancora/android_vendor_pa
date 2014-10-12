@@ -15,6 +15,9 @@
 ifeq (pa_amami,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_amami.mk
 endif
+ifeq (pa_ancora,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_ancora.mk
+endif
 ifeq (pa_aries,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_aries.mk
 endif
